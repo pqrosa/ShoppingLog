@@ -13,6 +13,7 @@
 - (IBAction)tocouBotaoSalvar:(UIButton *)sender;
 - (IBAction)digitouProduto:(UITextField *)sender;
 - (IBAction)alterouQuantidade:(UISlider *)sender;
+- (IBAction)digitouNumero:(UITextField *)sender;
 
 @property (strong, nonatomic) IBOutlet UITextField *produtoTxtField;
 @property (strong, nonatomic) IBOutlet UITextField *valorUnitarioTxtField;

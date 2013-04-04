@@ -64,6 +64,16 @@
 	NSLog(@"%f", sender.value);
 }
 
+// TODO: Consertar bug que quebra o aplicativo quando todo número é apagado.
+- (IBAction)digitouNumero:(UITextField *)sender {
+    int numDigitos = [sender.text length];
+    NSLog(@"Digitos: %d", numDigitos);
+    
+    int digito = (int) [sender.text characterAtIndex:[sender.text length] -1];
+    NSLog(@"Numero digitado: %c", digito);
+
+}
+
 -(void)dismissKeyboard {
 	[self.produtoTxtField resignFirstResponder];
 	[self.valorUnitarioTxtField resignFirstResponder];
