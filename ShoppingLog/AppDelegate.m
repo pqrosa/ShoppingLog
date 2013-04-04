@@ -9,14 +9,18 @@
 #import "AppDelegate.h"
 
 #import "InserirPedidosViewController.h"
+#import "TestTableViewController.h"
 
 @implementation AppDelegate
+
+@synthesize window, viewController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-	self.viewController = [[InserirPedidosViewController alloc] init];
+//	self.viewController = [[InserirPedidosViewController alloc] init];
+    self.viewController = [[TestTableViewController alloc] init];
 	self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;

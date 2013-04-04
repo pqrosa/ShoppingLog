@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0167B518170E3903000A3DC3 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0167B517170E3903000A3DC3 /* DataManager.m */; };
+		0167B51D170E4326000A3DC3 /* TestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0167B51B170E4326000A3DC3 /* TestTableViewController.m */; };
+		0167B51E170E4326000A3DC3 /* TestTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0167B51C170E4326000A3DC3 /* TestTableViewController.xib */; };
 		BFDDD334170B9B95006F1968 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFDDD333170B9B95006F1968 /* UIKit.framework */; };
 		BFDDD336170B9B95006F1968 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFDDD335170B9B95006F1968 /* Foundation.framework */; };
 		BFDDD338170B9B95006F1968 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFDDD337170B9B95006F1968 /* CoreGraphics.framework */; };
@@ -22,6 +25,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0167B516170E3903000A3DC3 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		0167B517170E3903000A3DC3 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		0167B51A170E4326000A3DC3 /* TestTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableViewController.h; sourceTree = "<group>"; };
+		0167B51B170E4326000A3DC3 /* TestTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableViewController.m; sourceTree = "<group>"; };
+		0167B51C170E4326000A3DC3 /* TestTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestTableViewController.xib; sourceTree = "<group>"; };
 		BFDDD330170B9B95006F1968 /* ShoppingLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFDDD333170B9B95006F1968 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BFDDD335170B9B95006F1968 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -115,6 +123,9 @@
 				BFDDD357170B9C3D006F1968 /* InserirPedidosViewController.h */,
 				BFDDD358170B9C3D006F1968 /* InserirPedidosViewController.m */,
 				BFDDD359170B9C3D006F1968 /* InserirPedidosViewController.xib */,
+				0167B51A170E4326000A3DC3 /* TestTableViewController.h */,
+				0167B51B170E4326000A3DC3 /* TestTableViewController.m */,
+				0167B51C170E4326000A3DC3 /* TestTableViewController.xib */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -124,6 +135,8 @@
 			children = (
 				BFDDD35D170BA572006F1968 /* Produto.h */,
 				BFDDD35E170BA572006F1968 /* Produto.m */,
+				0167B516170E3903000A3DC3 /* DataManager.h */,
+				0167B517170E3903000A3DC3 /* DataManager.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -184,6 +197,7 @@
 				BFDDD348170B9B95006F1968 /* Default@2x.png in Resources */,
 				BFDDD34A170B9B95006F1968 /* Default-568h@2x.png in Resources */,
 				BFDDD35B170B9C3D006F1968 /* InserirPedidosViewController.xib in Resources */,
+				0167B51E170E4326000A3DC3 /* TestTableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +212,8 @@
 				BFDDD344170B9B95006F1968 /* AppDelegate.m in Sources */,
 				BFDDD35A170B9C3D006F1968 /* InserirPedidosViewController.m in Sources */,
 				BFDDD35F170BA572006F1968 /* Produto.m in Sources */,
+				0167B518170E3903000A3DC3 /* DataManager.m in Sources */,
+				0167B51D170E4326000A3DC3 /* TestTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,7 +256,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -264,7 +280,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -277,6 +293,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ShoppingLog/ShoppingLog-Prefix.pch";
 				INFOPLIST_FILE = "ShoppingLog/ShoppingLog-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -288,6 +305,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ShoppingLog/ShoppingLog-Prefix.pch";
 				INFOPLIST_FILE = "ShoppingLog/ShoppingLog-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -312,6 +330,7 @@
 				BFDDD355170B9B95006F1968 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

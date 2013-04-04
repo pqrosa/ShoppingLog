@@ -8,12 +8,15 @@
 
 #import "InserirPedidosViewController.h"
 #import "Produto.h"
+#import "DataManager.h"
 
 @interface InserirPedidosViewController ()
 
 @end
 
 @implementation InserirPedidosViewController
+
+@synthesize quant, quantSlider, produtoTxtField, valorUnitarioTxtField;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -53,6 +56,8 @@
 	_produto.quantidade = self.quantSlider.value;
 	
 	NSLog(@"%d unidades do Produto %@ custam %0.2f", _produto.quantidade, _produto.nome, [_produto total]);
+    
+    [DataManager salvarProduto:_produto];
 }
 
 - (IBAction)digitouProduto:(UITextField *)sender {

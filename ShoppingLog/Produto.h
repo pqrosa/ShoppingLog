@@ -8,7 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Produto : NSObject{
+@interface Produto : NSObject
+{
 	NSString * nome;
 	float valorUnitario;
 	int quantidade;
@@ -19,5 +20,6 @@
 @property int quantidade;
 
 -(float)total;
+- (NSDictionary *)dicionarioDoProduto;
 
 @end

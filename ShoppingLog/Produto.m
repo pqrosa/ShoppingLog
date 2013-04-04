@@ -12,8 +12,17 @@
 
 @synthesize nome, valorUnitario, quantidade;
 
--(float)total{
+-(float)total
+{
 	return self.quantidade * self.valorUnitario;
+}
+
+- (NSDictionary *)dicionarioDoProduto
+{
+    return [NSDictionary dictionaryWithObjectsAndKeys:
+            self.nome, @"nome",
+            [NSNumber numberWithFloat:self.valorUnitario], @"valorUnitario",
+            [NSNumber numberWithInt:self.quantidade], @"quantidade",nil];
 }
 
 @end
