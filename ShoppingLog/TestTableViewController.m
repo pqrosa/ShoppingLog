@@ -47,15 +47,29 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:@"Cell"];
-    cell.textLabel.text = @"Produto";
-    cell.detailTextLabel.text = @"R$2.50";
+    
+    static NSString *identifier = @ "CellIdentifier";
+    
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier];
+    
+    if (!cell)
+    {
+        NSLog(@"criei!");
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:identifier];
+    }
+    else
+    {
+        NSLog(@"aproveitei!");
+    }    
+
+    cell.textLabel.text = [NSString stringWithFormat:@"Celula %d", indexPath.row];
+    cell.detailTextLabel.text = [NSString stringWithFormat:@"Detalhe %d", indexPath.row];
     return cell;    
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 1;
+    return 50;
 }
 
 
