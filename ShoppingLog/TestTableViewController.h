@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+// TODO: Criar uma classe que seja filha direta de UITableViewController
+
 @interface TestTableViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
 @end

@@ -22,4 +22,6 @@
 -(float)total;
 - (NSDictionary *)dicionarioDoProduto;
 
+// TODO: Criar um método construtor que receba um dicionário e ele popula os dados do produto
+
 @end
