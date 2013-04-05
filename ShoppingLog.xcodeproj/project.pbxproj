@@ -10,6 +10,8 @@
 		0167B518170E3903000A3DC3 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0167B517170E3903000A3DC3 /* DataManager.m */; };
 		0167B51D170E4326000A3DC3 /* TestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0167B51B170E4326000A3DC3 /* TestTableViewController.m */; };
 		0167B51E170E4326000A3DC3 /* TestTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0167B51C170E4326000A3DC3 /* TestTableViewController.xib */; };
+		378F9F2E170F64CA002B8AC8 /* insert.png in Resources */ = {isa = PBXBuildFile; fileRef = 378F9F2C170F64CA002B8AC8 /* insert.png */; };
+		378F9F2F170F64CA002B8AC8 /* list.png in Resources */ = {isa = PBXBuildFile; fileRef = 378F9F2D170F64CA002B8AC8 /* list.png */; };
 		BFDDD334170B9B95006F1968 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFDDD333170B9B95006F1968 /* UIKit.framework */; };
 		BFDDD336170B9B95006F1968 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFDDD335170B9B95006F1968 /* Foundation.framework */; };
 		BFDDD338170B9B95006F1968 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFDDD337170B9B95006F1968 /* CoreGraphics.framework */; };
@@ -30,6 +32,8 @@
 		0167B51A170E4326000A3DC3 /* TestTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableViewController.h; sourceTree = "<group>"; };
 		0167B51B170E4326000A3DC3 /* TestTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableViewController.m; sourceTree = "<group>"; };
 		0167B51C170E4326000A3DC3 /* TestTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestTableViewController.xib; sourceTree = "<group>"; };
+		378F9F2C170F64CA002B8AC8 /* insert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = insert.png; sourceTree = "<group>"; };
+		378F9F2D170F64CA002B8AC8 /* list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list.png; sourceTree = "<group>"; };
 		BFDDD330170B9B95006F1968 /* ShoppingLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFDDD333170B9B95006F1968 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BFDDD335170B9B95006F1968 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -64,6 +68,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		378F9F2B170F64B4002B8AC8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				378F9F2C170F64CA002B8AC8 /* insert.png */,
+				378F9F2D170F64CA002B8AC8 /* list.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		BFDDD327170B9B95006F1968 = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +119,7 @@
 		BFDDD33A170B9B95006F1968 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				378F9F2B170F64B4002B8AC8 /* Images */,
 				BFDDD33B170B9B95006F1968 /* ShoppingLog-Info.plist */,
 				BFDDD33C170B9B95006F1968 /* InfoPlist.strings */,
 				BFDDD33F170B9B95006F1968 /* main.m */,
@@ -198,6 +212,8 @@
 				BFDDD34A170B9B95006F1968 /* Default-568h@2x.png in Resources */,
 				BFDDD35B170B9C3D006F1968 /* InserirPedidosViewController.xib in Resources */,
 				0167B51E170E4326000A3DC3 /* TestTableViewController.xib in Resources */,
+				378F9F2E170F64CA002B8AC8 /* insert.png in Resources */,
+				378F9F2F170F64CA002B8AC8 /* list.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

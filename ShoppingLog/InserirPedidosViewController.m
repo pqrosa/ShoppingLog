@@ -50,14 +50,14 @@
 
 - (IBAction)tocouBotaoSalvar:(UIButton *)sender {
 	
-	Produto * _produto = [[Produto alloc] init];
-	_produto.nome = self.produtoTxtField.text;
-	_produto.valorUnitario = [self.valorUnitarioTxtField.text floatValue];
-	_produto.quantidade = self.quantSlider.value;
+	Produto * produto = [[Produto alloc] init];
+	produto.nome = self.produtoTxtField.text;
+	produto.valorUnitario = [self.valorUnitarioTxtField.text floatValue];
+	produto.quantidade = self.quantSlider.value;
 	
-	NSLog(@"%d unidades do Produto %@ custam %0.2f", _produto.quantidade, _produto.nome, [_produto total]);
+	NSLog(@"%d unidades do Produto %@ custam %0.2f", produto.quantidade, produto.nome, [produto total]);
     
-    [DataManager salvarProduto:_produto];
+    [DataManager salvarProduto:produto];
 }
 
 - (IBAction)digitouProduto:(UITextField *)sender {
@@ -69,7 +69,7 @@
 	NSLog(@"%f", sender.value);
 }
 
-// TODO: Consertar bug que quebra o aplicativo quando todo número é apagado.
+// FIXME: Consertar bug que quebra o aplicativo quando todo número é apagado.
 - (IBAction)digitouNumero:(UITextField *)sender {
     int numDigitos = [sender.text length];
     NSLog(@"Digitos: %d", numDigitos);
