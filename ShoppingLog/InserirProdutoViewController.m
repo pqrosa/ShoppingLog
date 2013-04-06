@@ -6,15 +6,15 @@
 //  Copyright (c) 2013 iLearn. All rights reserved.
 //
 
-#import "InserirPedidosViewController.h"
+#import "InserirProdutoViewController.h"
 #import "Produto.h"
 #import "DataManager.h"
 
-@interface InserirPedidosViewController ()
+@interface InserirProdutoViewController ()
 
 @end
 
-@implementation InserirPedidosViewController
+@implementation InserirProdutoViewController
 
 @synthesize quant, quantSlider, produtoTxtField, valorUnitarioTxtField;
 

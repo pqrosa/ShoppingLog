@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		0167B518170E3903000A3DC3 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0167B517170E3903000A3DC3 /* DataManager.m */; };
-		0167B51D170E4326000A3DC3 /* TestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0167B51B170E4326000A3DC3 /* TestTableViewController.m */; };
-		0167B51E170E4326000A3DC3 /* TestTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0167B51C170E4326000A3DC3 /* TestTableViewController.xib */; };
 		378F9F2E170F64CA002B8AC8 /* insert.png in Resources */ = {isa = PBXBuildFile; fileRef = 378F9F2C170F64CA002B8AC8 /* insert.png */; };
 		378F9F2F170F64CA002B8AC8 /* list.png in Resources */ = {isa = PBXBuildFile; fileRef = 378F9F2D170F64CA002B8AC8 /* list.png */; };
+		378F9F31170F7005002B8AC8 /* ListarProdutosViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 378F9F30170F7005002B8AC8 /* ListarProdutosViewController.xib */; };
+		378F9F34170F7040002B8AC8 /* ListarProdutosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 378F9F33170F7040002B8AC8 /* ListarProdutosViewController.m */; };
 		BFDDD334170B9B95006F1968 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFDDD333170B9B95006F1968 /* UIKit.framework */; };
 		BFDDD336170B9B95006F1968 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFDDD335170B9B95006F1968 /* Foundation.framework */; };
 		BFDDD338170B9B95006F1968 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFDDD337170B9B95006F1968 /* CoreGraphics.framework */; };
@@ -21,19 +21,19 @@
 		BFDDD346170B9B95006F1968 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BFDDD345170B9B95006F1968 /* Default.png */; };
 		BFDDD348170B9B95006F1968 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BFDDD347170B9B95006F1968 /* Default@2x.png */; };
 		BFDDD34A170B9B95006F1968 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BFDDD349170B9B95006F1968 /* Default-568h@2x.png */; };
-		BFDDD35A170B9C3D006F1968 /* InserirPedidosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDDD358170B9C3D006F1968 /* InserirPedidosViewController.m */; };
-		BFDDD35B170B9C3D006F1968 /* InserirPedidosViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFDDD359170B9C3D006F1968 /* InserirPedidosViewController.xib */; };
+		BFDDD35A170B9C3D006F1968 /* InserirProdutoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDDD358170B9C3D006F1968 /* InserirProdutoViewController.m */; };
+		BFDDD35B170B9C3D006F1968 /* InserirProdutoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFDDD359170B9C3D006F1968 /* InserirProdutoViewController.xib */; };
 		BFDDD35F170BA572006F1968 /* Produto.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDDD35E170BA572006F1968 /* Produto.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0167B516170E3903000A3DC3 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
 		0167B517170E3903000A3DC3 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
-		0167B51A170E4326000A3DC3 /* TestTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableViewController.h; sourceTree = "<group>"; };
-		0167B51B170E4326000A3DC3 /* TestTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableViewController.m; sourceTree = "<group>"; };
-		0167B51C170E4326000A3DC3 /* TestTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestTableViewController.xib; sourceTree = "<group>"; };
 		378F9F2C170F64CA002B8AC8 /* insert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = insert.png; sourceTree = "<group>"; };
 		378F9F2D170F64CA002B8AC8 /* list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list.png; sourceTree = "<group>"; };
+		378F9F30170F7005002B8AC8 /* ListarProdutosViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListarProdutosViewController.xib; sourceTree = "<group>"; };
+		378F9F32170F7040002B8AC8 /* ListarProdutosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListarProdutosViewController.h; sourceTree = "<group>"; };
+		378F9F33170F7040002B8AC8 /* ListarProdutosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListarProdutosViewController.m; sourceTree = "<group>"; };
 		BFDDD330170B9B95006F1968 /* ShoppingLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFDDD333170B9B95006F1968 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BFDDD335170B9B95006F1968 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -47,9 +47,9 @@
 		BFDDD345170B9B95006F1968 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		BFDDD347170B9B95006F1968 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		BFDDD349170B9B95006F1968 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		BFDDD357170B9C3D006F1968 /* InserirPedidosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InserirPedidosViewController.h; sourceTree = "<group>"; };
-		BFDDD358170B9C3D006F1968 /* InserirPedidosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InserirPedidosViewController.m; sourceTree = "<group>"; };
-		BFDDD359170B9C3D006F1968 /* InserirPedidosViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InserirPedidosViewController.xib; sourceTree = "<group>"; };
+		BFDDD357170B9C3D006F1968 /* InserirProdutoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InserirProdutoViewController.h; sourceTree = "<group>"; };
+		BFDDD358170B9C3D006F1968 /* InserirProdutoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InserirProdutoViewController.m; sourceTree = "<group>"; };
+		BFDDD359170B9C3D006F1968 /* InserirProdutoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InserirProdutoViewController.xib; sourceTree = "<group>"; };
 		BFDDD35D170BA572006F1968 /* Produto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Produto.h; sourceTree = "<group>"; };
 		BFDDD35E170BA572006F1968 /* Produto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Produto.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -134,12 +134,12 @@
 		BFDDD356170B9BB5006F1968 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				BFDDD357170B9C3D006F1968 /* InserirPedidosViewController.h */,
-				BFDDD358170B9C3D006F1968 /* InserirPedidosViewController.m */,
-				BFDDD359170B9C3D006F1968 /* InserirPedidosViewController.xib */,
-				0167B51A170E4326000A3DC3 /* TestTableViewController.h */,
-				0167B51B170E4326000A3DC3 /* TestTableViewController.m */,
-				0167B51C170E4326000A3DC3 /* TestTableViewController.xib */,
+				BFDDD357170B9C3D006F1968 /* InserirProdutoViewController.h */,
+				BFDDD358170B9C3D006F1968 /* InserirProdutoViewController.m */,
+				BFDDD359170B9C3D006F1968 /* InserirProdutoViewController.xib */,
+				378F9F30170F7005002B8AC8 /* ListarProdutosViewController.xib */,
+				378F9F32170F7040002B8AC8 /* ListarProdutosViewController.h */,
+				378F9F33170F7040002B8AC8 /* ListarProdutosViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -210,10 +210,10 @@
 				BFDDD346170B9B95006F1968 /* Default.png in Resources */,
 				BFDDD348170B9B95006F1968 /* Default@2x.png in Resources */,
 				BFDDD34A170B9B95006F1968 /* Default-568h@2x.png in Resources */,
-				BFDDD35B170B9C3D006F1968 /* InserirPedidosViewController.xib in Resources */,
-				0167B51E170E4326000A3DC3 /* TestTableViewController.xib in Resources */,
+				BFDDD35B170B9C3D006F1968 /* InserirProdutoViewController.xib in Resources */,
 				378F9F2E170F64CA002B8AC8 /* insert.png in Resources */,
 				378F9F2F170F64CA002B8AC8 /* list.png in Resources */,
+				378F9F31170F7005002B8AC8 /* ListarProdutosViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,10 +226,10 @@
 			files = (
 				BFDDD340170B9B95006F1968 /* main.m in Sources */,
 				BFDDD344170B9B95006F1968 /* AppDelegate.m in Sources */,
-				BFDDD35A170B9C3D006F1968 /* InserirPedidosViewController.m in Sources */,
+				BFDDD35A170B9C3D006F1968 /* InserirProdutoViewController.m in Sources */,
 				BFDDD35F170BA572006F1968 /* Produto.m in Sources */,
 				0167B518170E3903000A3DC3 /* DataManager.m in Sources */,
-				0167B51D170E4326000A3DC3 /* TestTableViewController.m in Sources */,
+				378F9F34170F7040002B8AC8 /* ListarProdutosViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

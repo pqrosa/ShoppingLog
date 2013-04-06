@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface InserirPedidosViewController : UIViewController
+@interface InserirProdutoViewController : UIViewController
 
 - (IBAction)tocouBotaoSalvar:(UIButton *)sender;
 - (IBAction)digitouProduto:(UITextField *)sender;

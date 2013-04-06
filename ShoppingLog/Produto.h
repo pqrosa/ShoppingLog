@@ -19,7 +19,8 @@
 @property float valorUnitario;
 @property int quantidade;
 
--(float)total;
+- (float)total;
+
 - (NSDictionary *)dicionarioDoProduto;
 
 // TODO: Criar um método construtor que receba um dicionário e ele popula os dados do produto

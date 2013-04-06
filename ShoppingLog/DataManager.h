@@ -15,7 +15,6 @@
 
 + (void)salvarProduto:(Produto *)umProduto;
 
-// TODO: Criar um método que retorna um array de produtos
-
++ (NSMutableArray *)recuperarProdutos;
 
 @end

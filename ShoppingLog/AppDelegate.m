@@ -8,12 +8,10 @@
 
 #import "AppDelegate.h"
 
-#import "InserirPedidosViewController.h"
-#import "TestTableViewController.h"
+#import "InserirProdutoViewController.h"
+#import "ListarProdutosViewController.h"
 
 @implementation AppDelegate
-
-@synthesize window, viewController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
@@ -21,12 +19,12 @@
     
     // Override point for customization after application launch.
 	
-    InserirPedidosViewController *inserirPedidosViewController = [[InserirPedidosViewController alloc] init];
-    TestTableViewController *testTableViewController = [[TestTableViewController alloc] init];
+    InserirProdutoViewController *inserirProdutoViewController = [[InserirProdutoViewController alloc] init];
+    ListarProdutosViewController *listarProdutosViewController = [[ListarProdutosViewController alloc] init];
     
     // To configure the tabs of a tab bar controller, you assign the view controllers that provide the root view for each tab to the viewControllers property.
     UITabBarController *tabBarController = [[UITabBarController alloc] init];    
-    NSArray *tabBarViewControllers = [[NSArray alloc] initWithObjects:inserirPedidosViewController, testTableViewController, nil];
+    NSArray *tabBarViewControllers = [[NSArray alloc] initWithObjects:inserirProdutoViewController, listarProdutosViewController, nil];
     [tabBarController setViewControllers:tabBarViewControllers];
     
     // Tab bar items are configured through their corresponding view controller. To associate a tab bar item with a view controller, create a new instance of the UITabBarItem class, configure it appropriately for the view controller, and assign it to the view controller’s tabBarItem property.
@@ -37,7 +35,7 @@
     
     UITabBarItem *listarPedidosTabBarItem = [[UITabBarItem alloc] initWithTitle:@"Listar" image:[UIImage imageNamed:@"list.png"] tag:0];
     [[tabBarViewControllers objectAtIndex:1] setTabBarItem:listarPedidosTabBarItem];
-    
+
     self.window.rootViewController = tabBarController;
     [self.window makeKeyAndVisible];
     return YES;

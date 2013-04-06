@@ -8,12 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@class InserirPedidosViewController;
+@class InserirProdutoViewController;
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
-@property (strong, nonatomic) UIViewController *viewController;
 
 @end
