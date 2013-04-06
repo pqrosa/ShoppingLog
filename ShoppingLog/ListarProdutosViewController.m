@@ -40,6 +40,12 @@
     
 }
 
+// Permite que toda vez que a View for aberta, a lista que é exibida seja atualizada com o último produto inserido
+-(void)viewWillAppear:(BOOL)animated
+{
+    [self.tableView reloadData];
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

@@ -15,7 +15,7 @@
 	int quantidade;
 }
 
-@property NSString * nome;
+@property (strong, nonatomic) NSString * nome;
 @property float valorUnitario;
 @property int quantidade;
 
@@ -23,7 +23,6 @@
 
 - (NSDictionary *)dicionarioDoProduto;
 
-// TODO: Criar um método construtor que receba um dicionário e ele popula os dados do produto
 - (Produto *)initWithObject:(int)index ofNSMutableArray:(NSMutableArray *)NSMutableArray;
 
 @end
