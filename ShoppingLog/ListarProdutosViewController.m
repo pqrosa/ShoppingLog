@@ -36,7 +36,6 @@
  
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-    
     self.produtos = [DataManager recuperarProdutos];
     
 }
@@ -69,16 +68,11 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:CellIdentifier];
     }
 
-    //Produto *produto = [self.produtos objectAtIndex:0];
-    Produto *produto = [[Produto alloc] init];
-    produto = [self.produtos objectAtIndex:1];
+    // Popular dinamicamente o conteúdo da célula
+    Produto *produto = [[Produto alloc] initWithObject:[indexPath row] ofNSMutableArray:self.produtos];
     
-
-//    Define os textos primários e secundários da célula
-//    cell.textLabel.text = produto.nome;
-//    cell.detailTextLabel.text = [NSString stringWithFormat:@"%f",[produto total]];
-    cell.textLabel.text = @"Nome do produto";
-    cell.detailTextLabel.text = @"Valor do produto";
+    cell.textLabel.text = produto.nome;
+    cell.detailTextLabel.text = [NSString stringWithFormat:@"%0.2f",[produto total]];
     
     return cell;
 }

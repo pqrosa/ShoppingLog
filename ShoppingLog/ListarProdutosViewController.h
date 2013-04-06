@@ -8,11 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ListarProdutosViewController : UITableViewController
-{
-    NSMutableArray *produtos;
+@interface ListarProdutosViewController : UITableViewController{
+    NSMutableArray * produtos;
 }
 
-@property (nonatomic, strong) NSMutableArray *produtos;
+@property (nonatomic, strong) NSMutableArray * produtos;
 
 @end

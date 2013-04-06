@@ -25,4 +25,19 @@
             [NSNumber numberWithInt:self.quantidade], @"quantidade",nil];
 }
 
+- (Produto *)initWithObject:(int)index ofNSMutableArray:(NSMutableArray *)_NSMutableArray
+{
+    Produto *retorno = [[Produto alloc] init];
+    
+    // Acessar o elemento index do MutableArray
+    NSDictionary *produto = [[NSDictionary alloc] initWithDictionary:[_NSMutableArray objectAtIndex:index]];
+    
+    // Fazer parse do NSDictionary retornado acima para popular o produto
+    retorno.nome = [produto objectForKey:@"nome"];
+    retorno.valorUnitario = [[produto objectForKey:@"valorUnitario"] floatValue];
+    retorno.quantidade = [[produto objectForKey:@"quantidade"] intValue];
+    
+    return retorno;
+}
+
 @end

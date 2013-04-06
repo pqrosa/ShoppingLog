@@ -24,5 +24,6 @@
 - (NSDictionary *)dicionarioDoProduto;
 
 // TODO: Criar um método construtor que receba um dicionário e ele popula os dados do produto
+- (Produto *)initWithObject:(int)index ofNSMutableArray:(NSMutableArray *)NSMutableArray;
 
 @end
